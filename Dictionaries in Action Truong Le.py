@@ -216,7 +216,7 @@ def upgrade(checkout):
                 print('Looks like your fists are max')
     elif checkout == 'm':
         if musket['speed'] == 40:
-            musket1 = input('Would you like to buy level 1 fists for $200? (y/n) ')
+            musket1 = input('Would you like to buy level 1 musket for $200? (y/n) ')
             if musket1 == 'y':
                 if game_stats['money'] < 200:
                     print('You dont have enough money')
@@ -230,7 +230,7 @@ def upgrade(checkout):
             else:
                 print(random.choice(what))
         elif musket['speed'] == 60:
-            musket2 = input('Would you like to buy level 2 fists for $300? (y/n) ')
+            musket2 = input('Would you like to buy level 2 musket for $300? (y/n) ')
             if musket2 == 'y':
                 if game_stats['money'] < 300:
                     print('You dont have enough money')
@@ -245,7 +245,7 @@ def upgrade(checkout):
                 print(random.choice(what))
         else:
             if musket['speed'] == 70:
-                musket3 = input('Would you like to buy level 3 fists for $500? (y/n) ')
+                musket3 = input('Would you like to buy level 3 musket for $500? (y/n) ')
                 if musket3 == 'y':
                     if game_stats['money'] < 500:
                         print('You dont have enough money')
@@ -263,7 +263,7 @@ def upgrade(checkout):
     else:
         if checkout == 'tg':
             if throwing_knife['speed'] == 60:
-                knife1 = input('Would you like to buy level 1 fists for $100? (y/n) ')
+                knife1 = input('Would you like to buy level 1 knife for $100? (y/n) ')
                 if knife1 == 'y':
                     if game_stats['money'] < 100:
                         print('You dont have enough money')
@@ -277,7 +277,7 @@ def upgrade(checkout):
                 else:
                     print(random.choice(what))
             elif throwing_knife['speed'] == 70:
-                knife2 = input('Would you like to buy level 2 fists for $200? (y/n) ')
+                knife2 = input('Would you like to buy level 2 knife for $200? (y/n) ')
                 if knife2 == 'y':
                     if game_stats['money'] < 200:
                         print('You dont have enough money')
@@ -292,7 +292,7 @@ def upgrade(checkout):
                     print(random.choice(what))
             else:
                 if throwing_knife['speed'] == 80:
-                    knife3 = input('Would you like to buy level 3 fists for $400? (y/n) ')
+                    knife3 = input('Would you like to buy level 3 knife for $400? (y/n) ')
                     if knife3 == 'y':
                         if game_stats['money'] < 400:
                             print('You dont have enough money')
@@ -309,7 +309,7 @@ def upgrade(checkout):
                     print('Looks like your knife is max')
         elif checkout == 's':
             if shotgun['speed'] == 50:
-                shotgun1 = input('Would you like to buy level 1 fists for $150? (y/n) ')
+                shotgun1 = input('Would you like to buy level 1 shotgun for $150? (y/n) ')
                 if shotgun1 == 'y':
                     if game_stats['money'] < 150:
                         print('You dont have enough money')
@@ -323,7 +323,7 @@ def upgrade(checkout):
                 else:
                     print(random.choice(what))
             elif shotgun['speed'] == 60:
-                shotgun2 = input('Would you like to buy level 2 fists for $300? (y/n) ')
+                shotgun2 = input('Would you like to buy level 2 shotgun for $300? (y/n) ')
                 if shotgun2 == 'y':
                     if game_stats['money'] < 300:
                         print('You dont have enough money')
@@ -338,7 +338,7 @@ def upgrade(checkout):
                     print(random.choice(what))
             else:
                 if shotgun['speed'] == 65:
-                    shotgun3 = input('Would you like to buy level 3 fists for $400? (y/n) ')
+                    shotgun3 = input('Would you like to buy level 3 shotgun for $400? (y/n) ')
                     if shotgun3 == 'y':
                         if game_stats['money'] < 400:
                             print('You dont have enough money')
@@ -355,7 +355,7 @@ def upgrade(checkout):
                     print('Looks like your knife is max')
         else:
             if flamegun['speed'] == 30:
-                flamegun1 = input('Would you like to buy level 1 fists for $300? (y/n) ')
+                flamegun1 = input('Would you like to buy level 1 flamegun for $300? (y/n) ')
                 if flamegun1 == 'y':
                     if game_stats['money'] < 300:
                         print('You dont have enough money')
@@ -369,7 +369,7 @@ def upgrade(checkout):
                 else:
                     print(random.choice(what))
             elif flamegun['speed'] == 50:
-                flamegun2 = input('Would you like to buy level 2 fists for $400? (y/n) ')
+                flamegun2 = input('Would you like to buy level 2 flamegun for $400? (y/n) ')
                 if flamegun2 == 'y':
                     if game_stats['money'] < 400:
                         print('You dont have enough money')
@@ -384,7 +384,7 @@ def upgrade(checkout):
                     print(random.choice(what))
             else:
                 if flamegun['speed'] == 70:
-                    flamegun3 = input('Would you like to buy level 3 fists for $600? (y/n) ')
+                    flamegun3 = input('Would you like to buy level 3 flamegun for $600? (y/n) ')
                     if flamegun3 == 'y':
                         if game_stats['money'] < 600:
                             print('You dont have enough money')
