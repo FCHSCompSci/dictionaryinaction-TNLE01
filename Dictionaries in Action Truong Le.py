@@ -252,7 +252,7 @@ def upgrade(checkout):
                     else:
                         money(300)
                         musket['speed'] = 80
-                        nusket['power'] = 90
+                        musket['power'] = 90
                         print('Thank you for coming')
                 elif musket3 == 'n':
                     print('come again')
